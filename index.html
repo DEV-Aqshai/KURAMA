@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>KURAMA — Handbags Built Like Fruit</title>
+<link rel="icon" href="images/logo.png" type="image/png" />
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,500;1,9..144,600&family=Archivo:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Custom cursor -->
+<div class="cursor-dot" id="cursorDot"></div>
+
+<!-- Loader -->
+<div class="loader" id="loader">
+  <div class="loader-mark">
+    <img src="images/logo.png" alt="KURAMA" />
+  </div>
+  <div class="loader-bar"><span id="loaderProgress"></span></div>
+</div>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="#top">
+      <img src="images/logo.png" alt="KURAMA mark" />
+      <span>KURAMA</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#atelier">Atelier</a></li>
+      <li><a href="#collection">Collection</a></li>
+      <li><a href="#materials">Materials</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="top">
+  <div class="hero-band hero-band--top">
+    <p class="hero-eyebrow">Atelier objects — vol. 01</p>
+  </div>
+
+  <div class="hero-center">
+    <h1 class="hero-title" data-split>KURAMA</h1>
+    <div class="hero-3d" id="hero3d"></div>
+    <p class="hero-sub">Handbags built like fruit — strange on the outside, precise within.</p>
+    <a href="#collection" class="hero-scroll">
+      <span>Explore the collection</span>
+      <span class="hero-scroll-line"></span>
+    </a>
+  </div>
+
+  <div class="hero-band hero-band--bottom">
+    <p class="hero-eyebrow hero-eyebrow--dark">Leather &amp; oddities, since first sketch</p>
+  </div>
+</header>
+
+<!-- MARQUEE -->
+<section class="marquee">
+  <div class="marquee-track" id="marqueeTrack">
+    <span>WALNUT HANDLE</span><span>·</span>
+    <span>PEBBLED CALFSKIN</span><span>·</span>
+    <span>RESIN TURBINE</span><span>·</span>
+    <span>HAND-SET SPINES</span><span>·</span>
+    <span>FULL-GRAIN EMBOSS</span><span>·</span>
+    <span>RAW CANVAS LINING</span><span>·</span>
+  </div>
+</section>
+
+<!-- MANIFESTO -->
+<section class="manifesto" id="atelier">
+  <div class="manifesto-mark">
+    <img src="images/logo.png" alt="" aria-hidden="true" />
+  </div>
+  <p class="manifesto-text reveal-text">
+    Every KURAMA piece starts as a sketch of something that <em>isn't</em> a bag —
+    a rambutan, a tide, a signature scrawled too big. We build it anyway, in leather,
+    at full scale. What's left is unmistakably a handbag, and unmistakably something else too.
+  </p>
+  <p class="manifesto-caption">— design note, cutting room floor</p>
+</section>
+
+<!-- COLLECTION -->
+<section class="collection" id="collection">
+  <div class="collection-head">
+    <p class="section-eyebrow">The collection</p>
+    <h2 class="section-title">Three shapes, three appetites</h2>
+  </div>
+
+  <!-- Product 1 -->
+  <article class="product" data-tilt>
+    <div class="product-media">
+      <div class="product-image-wrap">
+        <img src="images/rambutan.jpg" alt="Rambutan clutch, a fuzzy red handbag shaped like a rambutan fruit" />
+      </div>
+      <span class="product-index">01</span>
+    </div>
+    <div class="product-info">
+      <p class="product-eyebrow">Clutch — structured</p>
+      <h3 class="product-name">Rambutan</h3>
+      <p class="product-tagline">Structured chaos, held together by a walnut handle.</p>
+      <p class="product-desc">
+        Every spine is cut and set by hand into a raspberry-dyed base, finished with
+        two folded leaves at the seam. It looks unstable. It isn't — the frame beneath
+        holds its shape through a full day of carrying.
+      </p>
+      <div class="product-meta">
+        <span class="product-price" data-price="1240">$0</span>
+        <span class="product-swatch" style="--swatch:#bf2b54">Raspberry hide</span>
+      </div>
+    </div>
+  </article>
+
+  <!-- Product 2 -->
+  <article class="product product--reverse" data-tilt>
+    <div class="product-media">
+      <div class="product-image-wrap">
+        <img src="images/sculpt.jpg" alt="Sculpt tote, a burgundy leather tote with the KURAMA name embossed into the leather" />
+      </div>
+      <span class="product-index">02</span>
+    </div>
+    <div class="product-info">
+      <p class="product-eyebrow">Tote — everyday</p>
+      <h3 class="product-name">Sculpt</h3>
+      <p class="product-tagline">Our name, carved directly into the hide.</p>
+      <p class="product-desc">
+        No plaque, no stitching — the KURAMA mark is pressed straight into full-grain
+        leather until it reads like relief sculpture. Double handles, soft gusseted
+        sides, room for a full workday.
+      </p>
+      <div class="product-meta">
+        <span class="product-price" data-price="980">$0</span>
+        <span class="product-swatch" style="--swatch:#7a2138">Merlot hide</span>
+      </div>
+    </div>
+  </article>
+
+  <!-- Product 3 -->
+  <article class="product" data-tilt>
+    <div class="product-media">
+      <div class="product-image-wrap">
+        <img src="images/regatta.jpg" alt="Regatta bag, a cream and burgundy handbag shaped like a boat hull with a resin turbine" />
+      </div>
+      <span class="product-index">03</span>
+    </div>
+    <div class="product-info">
+      <p class="product-eyebrow">Top handle — statement</p>
+      <h3 class="product-name">Regatta</h3>
+      <p class="product-tagline">A hull, a wake, and somewhere to put your keys.</p>
+      <p class="product-desc">
+        The base curves up at both ends like a boat cutting water, with a resin
+        turbine at the stern that spins as you walk. Vanilla body, raspberry wake
+        stitched along the keel.
+      </p>
+      <div class="product-meta">
+        <span class="product-price" data-price="1560">$0</span>
+        <span class="product-swatch" style="--swatch:#f5e9d0">Vanilla canvas</span>
+      </div>
+    </div>
+  </article>
+</section>
+
+<!-- MATERIALS / PALETTE -->
+<section class="materials" id="materials">
+  <div class="materials-head">
+    <p class="section-eyebrow section-eyebrow--dark">Palette &amp; material</p>
+    <h2 class="section-title section-title--dark">What each colour is made of</h2>
+  </div>
+  <div class="swatches">
+    <div class="swatch" style="--c:#da6c81">
+      <span class="swatch-name">Grapefruit</span>
+      <span class="swatch-hex">#DA6C81</span>
+      <span class="swatch-note">dyed lambskin, worn on the Regatta wake</span>
+    </div>
+    <div class="swatch" style="--c:#f5e9d0">
+      <span class="swatch-name swatch-name--dark">Vanilla</span>
+      <span class="swatch-hex swatch-hex--dark">#F5E9D0</span>
+      <span class="swatch-note swatch-note--dark">raw canvas lining, every bag</span>
+    </div>
+    <div class="swatch" style="--c:#bf2b54">
+      <span class="swatch-name">Raspberry</span>
+      <span class="swatch-hex">#BF2B54</span>
+      <span class="swatch-note">pebbled calfskin, house signature</span>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-top">
+    <img src="images/logo.png" alt="KURAMA mark" class="footer-logo" />
+    <h3>KURAMA</h3>
+  </div>
+  <p class="footer-line">Handbags built like fruit. Cut, pressed and set by hand.</p>
+  <div class="footer-bottom">
+    <span>© <span id="year"></span> KURAMA Atelier — study piece, not for sale</span>
+    <div class="footer-links">
+      <a href="#atelier">Atelier</a>
+      <a href="#collection">Collection</a>
+      <a href="#materials">Materials</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js"
+  }
+}
+</script>
+<script type="module" src="three-scene.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
