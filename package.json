@@ -1,0 +1,23 @@
+{
+  "name": "kurama",
+  "version": "1.0.0",
+  "description": "KURAMA — Handbags Built Like Fruit",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DEV-Aqshai/KURAMA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DEV-Aqshai/KURAMA/issues"
+  },
+  "homepage": "https://github.com/DEV-Aqshai/KURAMA#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
