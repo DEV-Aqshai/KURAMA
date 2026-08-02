@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/DEV-Aqshai/KURAMA/issues"
   },
-  "homepage": "https://github.com/DEV-Aqshai/KURAMA#readme",
-  "dependencies": {
-    "@vercel/analytics": "^2.0.1"
-  }
+  "homepage": "https://github.com/DEV-Aqshai/KURAMA#readme"
 }
